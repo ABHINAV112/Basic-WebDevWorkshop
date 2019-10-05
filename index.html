@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- over all html tag -->
+<html>
+  <!-- head tag -->
+  <head>
+    <!-- meta information not really necessary for the function of the web page, used by google's search enginer later on -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- linking to the style.css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- body tag -->
+  <body>
+    <!-- div containg the header -->
+    <div id="myDIV" class="header">
+      <!-- name of the header with some inlince CSS -->
+      <h2 style="margin:5px">My To Do List</h2>
+      <!-- The input tag where your can enter a task -->
+      <input type="text" id="myInput" placeholder="Title..." />
+      <!-- button which calls the function to create a new element -->
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    <!-- the unordered list where the tasks are going to be added into -->
+    <ul id="myUL"></ul>
+    <!-- linking to the main.js javascript file which makes the web page dynamic -->
+    <script src="main.js"></script>
+  </body>
+</html>
