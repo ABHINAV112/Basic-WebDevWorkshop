@@ -1,10 +1,17 @@
 # Basic Web Dev Workshop
 
-This workshop aims to teach how to build a basic website teaching basic concepts of HTML, CSS and Javascript.
+_by [Abhinav NB](https://github.com/ABHINAV112) for the blockchain special projects workshop_<br>
+This workshop aims to teach how to build a basic website teaching basic concepts of HTML, CSS and Javascript. You will require a text editor from the previously installed workshop. You may click the following to install [VSCode](https://code.visualstudio.com/download) or [atom](https://atom.io/).
+
+![logo](images/screenshots/logo.png)
+
+---
 
 ## Presentation
 
 For the complete presentation please click [here](https://docs.google.com/presentation/d/1TZGqNp1dunCXx9Tlyd24BNotrecH63kVVysH-bQ0wTw/edit?usp=sharing).
+
+---
 
 ## HTML
 
@@ -73,6 +80,9 @@ HTML tags can be nested within each other to create complex pages
 
 - Classes and Ids are special attributes
 - They can be used to refer to html tags, from css and javascript( you will get to know in the following sections)
+- Classes and id's differ as classes are used to refer to multiple tags but ids are generally used only for one tag
+
+---
 
 ## CSS
 
@@ -101,7 +111,7 @@ Using a style tag inside the HTML
 
 Use tag or .classname or #id where
 
-- tag
+#### tag
 
 ```CSS
 ul {
@@ -110,7 +120,7 @@ ul {
 }
 ```
 
-- classname
+#### classname
 
 ```CSS
 .addBtn {
@@ -127,7 +137,7 @@ ul {
 }
 ```
 
-- id
+#### id
 
 ```CSS
 #submit{
@@ -149,6 +159,8 @@ CSS uses attributes to change the way the property looks
 
 There are several attributes which can be looked at later on, click [here](https://www.w3schools.com/css/css_attribute_selectors.asp) to learn more
 
+---
+
 ## Javascript
 
 - High level programming language
@@ -163,7 +175,7 @@ There are several attributes which can be looked at later on, click [here](https
 
 ### Using JS in a web page
 
-- writing the javascript inside the html page
+#### writing the javascript inside the html page
 
 ```HTML
 <script>
@@ -171,7 +183,7 @@ There are several attributes which can be looked at later on, click [here](https
 </script>
 ```
 
-- linking to an external script file
+#### linking to an external script file
 
 ```HTML
 <script src="main.js"></script>
@@ -298,6 +310,8 @@ This is how you may access a javascript library
 ```html
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 ```
+
+---
 
 ## Hands on Project
 
