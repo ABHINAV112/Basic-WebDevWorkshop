@@ -1,9 +1,10 @@
 # Basic Web Dev Workshop
 
 _by [Abhinav NB](https://github.com/ABHINAV112) for the blockchain special projects workshop_<br>
-This workshop aims to teach how to build a basic website teaching basic concepts of HTML, CSS and Javascript. You will require a text editor from the previously installed workshop. You may click the following to install [VSCode](https://code.visualstudio.com/download) or [atom](https://atom.io/).
 
-![logo](images/screenshots/logo.png)
+---
+
+This workshop aims to teach how to build a basic website teaching basic concepts of HTML, CSS and Javascript. You will require a text editor from the previously installed workshop. You may click the following to install [VSCode](https://code.visualstudio.com/download) or [atom](https://atom.io/).
 
 ---
 
